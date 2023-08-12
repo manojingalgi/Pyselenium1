@@ -13,4 +13,4 @@ def test_open_url_verify_title(driver):
     print(driver.title)
 
     #verification
-    assert "Login - VWO"==driver.title
+    assert "Login - VWO "==driver.title
